@@ -1,10 +1,12 @@
 import gulp from "gulp";
 import {path} from "./gulp/config/path.js";
+import {plugins} from "./gulp/config/plugins.js";
 
  //Передаем значения в глобальную переменную
  global.app = {
     gulp: gulp,
     path: path,
+    plugins: plugins,
  }
 
  //импорт задач
