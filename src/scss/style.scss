@@ -1,0 +1,25 @@
+@import "fonts";
+
+body {
+    background-color: #333333;
+
+    h1 {
+        color: green;
+    }
+
+    background: url("@img/hills-trees-fog-morning-deer-5120x2880.jpg") 0 0 no-repeat;
+}
+
+@media (max-width: 768px) {
+    body h1 {
+        font-size: 30px;
+        color: red;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        background-color: #fff;
+    }
+}
